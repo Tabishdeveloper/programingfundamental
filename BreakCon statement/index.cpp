@@ -5,7 +5,7 @@ int main(){
 
     // Continue statement (sari loop run kare gi but jisko condition laga kar stop kiya ho ga only wo digit nhi run kare ga baqi loop as usual run hogi)
     // example => 01
-         /*int x;
+         int x;
          for(x=1;x<=5;x++){
             cout<<"Hello World\n";
             continue;
@@ -35,7 +35,7 @@ int main(){
                       //  }        
                 cout<<a<<" "<<b<<"\n";                  
                     }        
-            }  */ 
+            }   
 
     //____________________________________________________________________________________________________________________
 
@@ -49,6 +49,18 @@ int main(){
 
         cout<<c<<"\n";
      }
+
+     for(int d =1;d<=10;d++){
+        
+            if(d==8){
+                break;
+            }
+            cout<<d<<"\n";
+        }
+
+        
+       
+     
 
 
 
