@@ -51,6 +51,7 @@ else{
      }
      else{cout<<"All students fail\n";}
 
+   
 
 
     return 0;
