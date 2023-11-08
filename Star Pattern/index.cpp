@@ -110,7 +110,7 @@ cin >> n;
     } */ 
 
 // Parallelogram print
-   /* int i,j;
+    /*int i,j;
     
     for (int i = 1; i <= 5; i++)  
     {  
@@ -127,7 +127,7 @@ cin >> n;
     } */
 
     //_______________________________________________________________________________________________________ 
-    int i,j;
+   /* int i,j;
     
     for (int i = 1; i <= 5; i++)  
     {  
@@ -149,7 +149,7 @@ cin >> n;
         for(int j=1; j<=5-i+1;j++)
         cout<<" *";
         cout<<"\n";
-    }
+    }*/
 
     //__________________________________________________________________________________
     /*for (int i = 1; i > 5; i--)  
@@ -166,6 +166,64 @@ cin >> n;
         i++; 
           
     } */
+
+
+
+    /*int num,num1;
+    int n = 1;
+    //while(n<=1){
+         cout<<"enter your password\n";
+         cin>>num;
+         cout<<"your password is saved\n";
+         while(n<=3){
+         
+         cout<<"enter your saved password again\n";
+         cin>>num1;
+         
+
+         if(num!=num1){
+            cout<<"your password is wrong\n";
+           // break;
+            
+            
+            
+         }
+         else{
+            cout<<"welcome to dashboard\n";
+            break;
+         }
+         num1--;
+    }
+
+*/
+
+    //___________________________________________________________________
+
+    // Continue statement (sari loop run kare gi but jisko condition laga kar stop kiya ho ga only wo digit nhi run kare ga baqi loop as usual run hogi)
+    // example => 01
+         int x,y;
+         
+         while(x>0){
+
+            cout<<"enter one number\n";
+         cin>>x;
+         if(x>0){
+            cout<<"your number is =  " << x << "\n";
+
+         }
+         else{
+            cout<<"your number is = "<< x << "\n";
+            break;
+         }
+            
+         }
+
+
+        
+         
+
+
+
 
     
 return 0;
