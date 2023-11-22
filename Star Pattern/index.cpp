@@ -18,6 +18,104 @@ cout << "* ";
 cout << "\n";
 }  */
 
+/*int i =1;
+
+while(i<=4){
+    
+    int j = 1;
+    while(j<=i){
+    
+        cout<<" * ";
+        j++;;
+      
+    }
+    
+    cout<<"\n";
+    i++;
+    
+
+}
+*/
+/*
+int i =1;
+int n;
+cout<<"Enter number of rows : ";
+cin>>n;
+
+while(i<=n){
+    
+    int j = n;
+    while(j>=i){
+    
+        cout<<"* ";
+        j--;;
+      
+    }
+    
+    cout<<"\n";
+    i++;
+    
+
+}
+*/
+/*int i =1;
+
+while(i<=4){
+    
+    int j = i;
+    while(j<=4){
+    
+        cout<<" * ";
+        j++;;
+      
+    }
+    
+    cout<<"\n";
+    i++;
+    
+
+}
+*/
+/*int n;
+cout<<"Enter No.of Rows : ";
+cin>>n;
+int i =1;
+while(i<=n){
+    int s =2;
+    while(s>=n){
+        cout<<" ";
+        s++;
+    }
+    int j=1;
+    while(j<=i){
+        cout<<"* "<<" ";
+        j++;
+    }
+    cout<<endl;
+    i++;
+}*/
+/*
+int n;
+cin>>n;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}*/
+/*
+for(int i=n-1;i>=1;i--){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}*/
 //___________________________________________________________________________________________________________________________________
 
 //  Reverse Star Pattern 
@@ -46,8 +144,8 @@ cout << "\n";
 
 // Including space star pattern
 
-
-/*int i  ,j ,n,t ;
+/*
+int i  ,j ,n,t ;
 cout<<"Enter the number of rows";
 cin>>n;
 
@@ -66,8 +164,8 @@ cout << "*";
 
 cout << "\n";
 n--;
-}*/
-
+}
+*/
 //_________________________________________________________________________________
 
 
@@ -107,7 +205,30 @@ cin >> n;
   
         cout << endl; 
         n++;  
-    } */ 
+    } 
+    
+    //________________________________________________________________________________________________________________
+    int n;
+cin>>n;
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}
+for(int i=n-1;i>=1;i--){
+    for(int j=1;j<=n-i;j++){
+        cout<<" ";
+    }
+    for(int j=1;j<=i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}
+    */ 
 
 // Parallelogram print
     /*int i,j;
@@ -201,7 +322,7 @@ cin >> n;
 
     // Continue statement (sari loop run kare gi but jisko condition laga kar stop kiya ho ga only wo digit nhi run kare ga baqi loop as usual run hogi)
     // example => 01
-         int x,y;
+       /*  int x,y;
          
          while(x>0){
 
@@ -217,6 +338,75 @@ cin >> n;
          }
             
          }
+         */
+
+      /*  int  i= 1;
+        int  n,tab;
+cout << "Enter number of rows:  ";
+cin >> n;
+   
+    while ( i < n )  
+    {  
+         int j = 1;
+        while (j < (n-1))  
+            cout << " "; 
+            j++; 
+  
+        
+        while ( j <= i)  
+            cout << "* "; 
+            j++; 
+  
+        cout << endl;  
+        n--;  
+   
+   i++; }  
+  
+    
+       
+  
+   
+    while ( i > 0)  
+    {  
+        int j = 1;
+        while ( j < n )  
+            cout << " "; 
+            j++; 
+  
+          
+        while (j < i)  
+            cout << "* "; 
+            j++;
+  
+        cout << endl; 
+        n++;  
+    i--;}  
+
+*/
+// flag always contribute with true or false
+
+/*int x;
+bool empty = true;
+
+if(empty){
+    cout<<"Enter one number : ";
+    cin>>x;
+    cout<<x;
+    bool empty = false;
+   
+    
+    
+}
+else{
+    cout<<"X has already value\n";
+
+}
+*/
+
+for(int i=10 ;i>1;i/=2)
+{
+    cout<<i<<" ";
+}
 
 
         
