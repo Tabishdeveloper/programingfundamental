@@ -131,6 +131,87 @@ for(int i=0;i<10;i++){
     } 
     */
 
+   //__________________________________________________________________________________________________________
+// Q=> 06
+
+
+    /*const int numStudents = 10;
+    int marks[numStudents];
+    char grades[numStudents];
+
+    for (int i = 0; i < numStudents; ++i) {
+    cout << "Enter marks for student " << i + 1 << ": ";
+    cin >> marks[i];
+
+        
+     if (marks[i] >= 80)
+            grades[i] = 'A';
+  else if (marks[i] >= 60 && marks[i] <= 79)
+            grades[i] = 'B';
+    else if (marks[i] >= 40 && marks[i] <= 59)
+            grades[i] = 'C';
+     else
+          grades[i] = 'F'; 
+    }
+
+    
+    int countA = 0, countB = 0, countC = 0, countF = 0;
+
+    for (int i = 0; i < numStudents; ++i) {
+        switch (grades[i]) {
+     case 'A':
+             ++countA;
+             break;
+     case 'B':
+            ++countB;
+            break;
+     case 'C':
+            ++countC;
+            break;
+    case 'F':
+            ++countF;
+            break;
+        }
+    }
+
+    cout << "Number of students in each grade:\n";
+    cout << "A: " << countA << "\n";
+    cout << "B: " << countB << "\n";
+    cout << "C: " << countC << "\n";
+    cout << "F: " << countF << "\n";
+    */
+
+    //__________________________________________________________________________________________________________
+// Q=> 07
+
+/*int a, b, c, d;
+    cout<<"Enter the number of customers:";
+    cin>>a;
+  
+    int mangoes[a], oranges[a], bananas[a], bill[a];
+    for(b=0;b<a;b++)
+    {
+    bill[b]=0;      
+     cout<<"Customer "<<b+1<<" :"<<endl;
+     cout<<"Enter the number of Mangoes:";
+     cin>>mangoes[b];
+    bill[b]+=mangoes[b]*20;
+    cout<<"Enter the number of Oranges:";
+    cin>>oranges[b];
+    bill[b]+=oranges[b]*10;
+    cout<<"Enter the number of Bananas:";
+    cin>>bananas[b];
+    bill[b]+=bananas[b]*5;
+    }
+    cout<<"\n-------------------------------------------------------------------";
+    cout<<"\nCustomer No.\tMangoes\tOranges\tBananas\tTotal Bill";
+    cout<<"\n-------------------------------------------------------------------\n";
+    for(c=0;c<a;c++)
+    cout<<c+1<<"\t\t"<<mangoes[c]<<"\t"<<oranges[c]<<"\t"<<bananas[c]<<"\t"<<bill[c]<<endl;
+}
+
+ 
+*/
     
     return 0 ;
 }
