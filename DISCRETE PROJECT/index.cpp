@@ -50,7 +50,6 @@ cout<<"1=> To check validation of Universal Product Code[UPC]\n";
 cout<<"2=> To check validation of International Standard Book Number[ISBN]-13\n";
 cout<<"3=> To check validation of International Standard Book Number[ISBN]-10\n";
 cout<<"4=> To check validation of Master-card / Visa-card\n";
-cout<<"5=> To check validation of Euro-currency notes\n";
 cout<<"========================================================================\n";
 cout<<"PLease press one Button : ";
 cin>>button;
@@ -164,8 +163,6 @@ else{
 }
 break;
 
-case '5':
-break;
 
 
 default:
